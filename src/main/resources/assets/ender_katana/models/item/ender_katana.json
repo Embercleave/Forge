@@ -1,5 +1,5 @@
 {
-  "parent": "Minecraft:item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
     "layer 0": "ender_katana:item/ender_katana"
   }

@@ -11,7 +11,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, EnderKatana.MOD_ID);
 
-    public static final RegistryObject<Item> Ender_Katana = ITEMS.register("ender_katana", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ENDER_KATANA = ITEMS.register("ender_katana", () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

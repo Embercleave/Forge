@@ -56,7 +56,7 @@ public class EnderKatana
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if(event.getTabKey() == CreativeModeTabs.COMBAT){
-            event.accept(ModItems.Ender_Katana);
+            event.accept(ModItems.ENDER_KATANA);
         }
     }
 
